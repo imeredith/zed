@@ -138,6 +138,20 @@ This configuration allows you to debug a PHP file in your project.
   "cwd": "$ZED_WORKTREE_ROOT"
 }
 ```
+##### Listen for Xdebug
+
+This configuration allows you to listen for a remote Xdebug connection
+
+```json
+{
+  "label": "PHP: Listen for Xdebug",
+  "adapter": "php",
+  "request": "launch",
+  "initialize_args": {
+    "port": 9000
+  }
+}
+```
 
 #### Python Configuration
 
